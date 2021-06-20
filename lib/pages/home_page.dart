@@ -48,6 +48,7 @@ class _HomePageState extends State<HomePage> {
         child: (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
             ? ListView.builder(
                 //    itemCount: dummyList.length,
+                // Day 13 & 14 are having almost same work and you can use { bracis in place of => operator below}
                 itemCount: CatalogModel.items.length,
                 itemBuilder: (context, index) => ItemWidget(
                   //        item: dummyList[index],
